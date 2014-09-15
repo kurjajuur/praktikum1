@@ -1,0 +1,132 @@
+*{margin: 0;
+padding: 0; 
+}
+body {
+	background-image: url('images/body-bg.jpg');
+	font-family: Lato, sans-serif;
+}
+h1{
+	font-size:34px;
+	color: red;
+	font-weight: normal;
+}
+h2{
+	font-size:34px;
+	color: white;
+	font-weight: normal;
+}
+p{
+	font-size: 18px;
+	color:#9d9d9d;
+}
+
+header{
+	background:white;
+	height: 100px;
+	padding: 2% 2%;
+}
+header a {
+	text-decoration: none;
+	color:#9d9d9d;
+	margin: 5%;
+}
+header a:hover{
+	color:#303132;
+}
+ul li{
+	display:inline-block;
+}
+nav{
+	float: right;
+}
+.search{
+	display: inline-flex;
+	border: 0px;
+}
+.language{
+	text-align: right;
+	display: flex;
+}
+.language li{
+	font-size: 11px;
+	text-transform: uppercase;
+	padding:20%;
+}
+.menu ul{
+	display:inline-block;
+	margin: 4% 4px;
+}
+.menu li{
+	float: left;
+	padding: 0 10px;
+}
+.logo{
+	float: left;
+}
+.main{
+	text-align: center;
+	padding-top:5%;
+	width: 100%;
+}
+.content{
+	width:96%;
+	margin-left:2%;
+}
+.box{
+	position: relative;
+	float: left;
+	width: 21%;
+	height: 300px;
+	margin: 2%;
+}
+.box p{
+	font-size: 12px;
+	font-style: italic;
+	float: right;
+}
+.box-image{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position:relative;
+}
+.imagebox img{
+	height: 300px;
+	width: 100%;
+}
+.imagebox h2{
+	position: absolute;
+	overflow: hidden;
+	max-width: 90%;
+	max-height: 250px;
+	margin: 15px;
+	top: 0%;
+}
+article{
+	clear:both;
+	width: 96%;
+	padding-top: 5%;
+	margin-left:2%;
+	margin-bottom: 13%;
+}
+
+footer {
+	margin:10% 2%;
+	padding: 2%;
+}
+.info {
+	width: 40%;
+	position:absolute;
+}
+.ad{
+	width: 40%;
+	float: right;
+}
+.info p{
+	font-size: 11px;
+	text-align: left;
+}
+.ad p{
+	font-size: 11px;
+	text-align: right;
+}
